@@ -8,16 +8,31 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>console-in-memory</artifactId>
+
+    <artifactId>spring-rest</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
         <dependency>
             <groupId>eu.bambz.hexagonal</groupId>
             <artifactId>domain</artifactId>
         </dependency>
         <dependency>
             <groupId>eu.bambz.hexagonal</groupId>
-            <artifactId>in-memory-persistence</artifactId>
+            <artifactId>jpa-persistence</artifactId>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>

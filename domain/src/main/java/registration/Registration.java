@@ -3,8 +3,12 @@ package registration;
 import common.AggregateId;
 import common.Username;
 import io.vavr.control.Option;
-import registration.api.RegistrationResult;
+import lombok.Builder;
+import lombok.RequiredArgsConstructor;
+import registration.api.RegistrationSimpleData;
 
+@Builder
+@RequiredArgsConstructor
 public class Registration {
 
     private final AggregateId id;
@@ -19,14 +23,6 @@ public class Registration {
         this.password = new Password(password);
         this.token = new Token();
         this.confirmed = false;
-    }
-
-    public Registration(AggregateId id, Username username, Password password, Token token, boolean confirmed) {
-        this.id = id;
-        this.username = username;
-        this.password = password;
-        this.token = token;
-        this.confirmed = confirmed;
     }
 
     public Registration confirm(final String token) {
@@ -59,14 +55,16 @@ public class Registration {
         );
     }
 
-    public RegistrationResult toResult() {
-        return new RegistrationResult(
-                id.getId(),
-                username.getUsername(),
-                Option.of(token)
+    public RegistrationSimpleData toSimpleData() {
+        return RegistrationSimpleData.builder()
+                .id(id.getId())
+                .username(username.getUsername())
+                .password(password.getPassword())
+                .confirmed(this.confirmed)
+                .token(Option.of(token)
                         .map(Token::getToken)
-                        .getOrNull(),
-                this.confirmed);
+                        .getOrNull())
+                .build();
     }
 
     public AggregateId getId() {

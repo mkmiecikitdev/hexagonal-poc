@@ -1,8 +1,10 @@
 package presentation;
 
+import lombok.RequiredArgsConstructor;
 import registration.RegistrationFacade;
 import registration.api.RegistrationResult;
 
+@RequiredArgsConstructor
 public class ConsoleApp {
 
     private final RegistrationFacade registrationFacade;

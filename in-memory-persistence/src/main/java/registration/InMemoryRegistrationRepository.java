@@ -6,7 +6,7 @@ import io.vavr.collection.HashMap;
 import io.vavr.collection.Map;
 import io.vavr.control.Option;
 
-class InMemoryRegistrationRepository implements RegistrationRepository {
+public class InMemoryRegistrationRepository implements RegistrationRepository {
 
     private Map<AggregateId, Registration> repo = HashMap.empty();
 
@@ -24,7 +24,7 @@ class InMemoryRegistrationRepository implements RegistrationRepository {
     @Override
     public boolean existByName(final Username username) {
         return repo.exists(it -> it._2
-                .toResult()
+                .toSimpleData()
                 .getUsername()
                 .equals(username.getUsername()));
     }

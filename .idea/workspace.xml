@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0d77e9b-ed1f-4474-a2bb-502b74db6445" name="Default Changelist" comment="" />
+    <list default="true" id="b0d77e9b-ed1f-4474-a2bb-502b74db6445" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/registration/api/RegistrationSimpleData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/in-memory-persistence/in-memory-persistence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/in-memory-persistence/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-persistence/jpa-persistence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-persistence/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-persistence/src/main/java/JpaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-persistence/src/main/java/registration/JpaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-persistence/src/main/java/registration/JpaRegistrationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-persistence/src/main/java/registration/RegistrationJpaEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest/spring-rest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest/src/main/java/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest/src/main/java/registration/RegistrationRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-in-memory/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-in-memory/src/main/java/presentation/ConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/src/main/java/presentation/ConsoleApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-in-memory/src/main/java/registration/InMemoryRegistrationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/in-memory-persistence/src/main/java/registration/InMemoryRegistrationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-in-memory/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-in-memory/target/classes/presentation/ConsoleApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/target/classes/presentation/ConsoleApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-in-memory/target/classes/presentation/ConsoleAppModule.class" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/target/classes/presentation/ConsoleAppModule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-in-memory/target/classes/registration/InMemoryRegistrationRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-in-memory/target/console-in-memory-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/target/console-in-memory-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-in-memory/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-in-memory/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-in-memory/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/registration/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/registration/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/registration/RegistrationFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/registration/RegistrationFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/registration/api/RegistrationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/registration/api/RegistrationResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/common/AggregateId.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/common/AggregateId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/common/DomainError.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/common/DomainError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/common/Username.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/common/Username.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/Password.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/registration/Password.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/registration/Registration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/RegistrationFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/registration/RegistrationFacade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/RegistrationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/registration/RegistrationRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/registration/Token.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/api/RegistrationResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/registration/api/RegistrationResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/api/ResetTokenResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/registration/api/ResetTokenResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/domain-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +62,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1miOosqXUjb2qFUGxCZhy93cGvF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,23 +74,42 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IGA/iga-service-message" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Pobrane/demo" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.11820328" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Spring Rest">
+    <configuration name="Console Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="console-in-memory" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring Rest" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="spring-rest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Spring Rest" />
+      <item itemvalue="Application.Console Main" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Console Main" />
       </list>
     </recent_temporary>
   </component>
@@ -68,54 +139,78 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2475" y="260" width="847" height="677" key="#Project_Structure" timestamp="1609981103362">
+    <state x="2475" y="260" width="847" height="677" key="#Project_Structure" timestamp="1610024439075">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state x="2475" y="260" width="847" height="677" key="#Project_Structure/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1609981103362" />
-    <state x="2688" y="318" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1609981817991">
+    <state x="2475" y="260" width="847" height="677" key="#Project_Structure/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610024439075" />
+    <state x="2539" y="256" width="789" height="778" key="#Spring_Rest" timestamp="1610024811449">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state x="2688" y="318" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1609981817991" />
+    <state x="2539" y="256" width="789" height="778" key="#Spring_Rest/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610024811449" />
+    <state x="2338" y="257" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610024859719">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2338" y="257" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610024859719" />
+    <state x="2688" y="318" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1610023952380">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2688" y="318" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610023952380" />
+    <state x="2612" y="385" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1610024715395">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2612" y="385" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610024715395" />
+    <state x="2592" y="459" width="575" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610026034946">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2592" y="459" width="575" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610026034946" />
     <state x="2494" y="122" width="762" height="954" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609981850623">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state x="2494" y="122" width="762" height="954" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1609981850623" />
-    <state x="2663" y="357" width="424" height="484" key="FileChooserDialogImpl" timestamp="1610007446464">
+    <state x="2613" y="348" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610023567140">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state x="2663" y="357" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610007446464" />
-    <state width="1874" height="200" key="GridCell.Tab.0.bottom" timestamp="1609982566458">
+    <state x="2613" y="348" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610023567140" />
+    <state x="2020" y="98" width="1720" height="1002" key="DiffContextDialog" timestamp="1610022410697">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1874" height="200" key="GridCell.Tab.0.bottom/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1609982566458" />
-    <state width="1874" height="200" key="GridCell.Tab.0.center" timestamp="1609982566457">
+    <state x="2020" y="98" width="1720" height="1002" key="DiffContextDialog/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610022410697" />
+    <state x="2663" y="357" width="424" height="484" key="FileChooserDialogImpl" timestamp="1610024819138">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1874" height="200" key="GridCell.Tab.0.center/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1609982566457" />
-    <state width="1874" height="200" key="GridCell.Tab.0.left" timestamp="1609982566457">
+    <state x="2663" y="357" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610024819138" />
+    <state width="1874" height="305" key="GridCell.Tab.0.bottom" timestamp="1610026160138">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1874" height="200" key="GridCell.Tab.0.left/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1609982566457" />
-    <state width="1874" height="200" key="GridCell.Tab.0.right" timestamp="1609982566457">
+    <state width="1874" height="305" key="GridCell.Tab.0.bottom/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610026160138" />
+    <state width="1874" height="305" key="GridCell.Tab.0.center" timestamp="1610026160138">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1874" height="200" key="GridCell.Tab.0.right/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1609982566457" />
-    <state width="1874" height="200" key="GridCell.Tab.1.bottom" timestamp="1609982566553">
+    <state width="1874" height="305" key="GridCell.Tab.0.center/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610026160138" />
+    <state width="1874" height="305" key="GridCell.Tab.0.left" timestamp="1610026160138">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1874" height="200" key="GridCell.Tab.1.bottom/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1609982566553" />
-    <state width="1874" height="200" key="GridCell.Tab.1.center" timestamp="1609982566553">
+    <state width="1874" height="305" key="GridCell.Tab.0.left/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610026160138" />
+    <state width="1874" height="305" key="GridCell.Tab.0.right" timestamp="1610026160138">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1874" height="200" key="GridCell.Tab.1.center/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1609982566553" />
-    <state width="1874" height="200" key="GridCell.Tab.1.left" timestamp="1609982566553">
+    <state width="1874" height="305" key="GridCell.Tab.0.right/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610026160138" />
+    <state width="1874" height="131" key="GridCell.Tab.1.bottom" timestamp="1610022392001">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1874" height="200" key="GridCell.Tab.1.left/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1609982566553" />
-    <state width="1874" height="200" key="GridCell.Tab.1.right" timestamp="1609982566553">
+    <state width="1874" height="131" key="GridCell.Tab.1.bottom/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610022392001" />
+    <state width="1874" height="131" key="GridCell.Tab.1.center" timestamp="1610022392001">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1874" height="200" key="GridCell.Tab.1.right/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1609982566553" />
+    <state width="1874" height="131" key="GridCell.Tab.1.center/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610022392001" />
+    <state width="1874" height="131" key="GridCell.Tab.1.left" timestamp="1610022392001">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1874" height="131" key="GridCell.Tab.1.left/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610022392001" />
+    <state width="1874" height="131" key="GridCell.Tab.1.right" timestamp="1610022392001">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1874" height="131" key="GridCell.Tab.1.right/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610022392001" />
     <state x="2369" y="234" width="1024" height="845" key="SettingsEditor" timestamp="1609980668289">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
@@ -124,14 +219,14 @@
       <screen x="3840" y="0" width="1920" height="1080" />
     </state>
     <state x="4456" y="366" key="com.intellij.ide.util.TipDialog/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610007129156" />
-    <state x="3840" y="0" width="1557" height="933" maximized="true" key="dock-window-1" timestamp="1609980158311">
+    <state x="3840" y="0" width="1436" height="999" maximized="true" key="dock-window-1" timestamp="1610022373531">
       <screen x="3840" y="0" width="1920" height="1080" />
     </state>
-    <state x="3840" y="0" width="1557" height="933" maximized="true" key="dock-window-1/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1609980158311" />
-    <state x="2508" y="296" width="734" height="605" key="new project wizard" timestamp="1609980281868">
+    <state x="3840" y="0" width="1436" height="999" maximized="true" key="dock-window-1/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610022373531" />
+    <state x="2508" y="296" width="734" height="605" key="new project wizard" timestamp="1610024248221">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state x="2508" y="296" width="734" height="605" key="new project wizard/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1609980281868" />
+    <state x="2508" y="296" width="734" height="605" key="new project wizard/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610024248221" />
     <state x="4545" y="158" width="500" height="762" key="refactoring.ChangeSignatureDialog" timestamp="1609975737938">
       <screen x="3840" y="0" width="1920" height="1080" />
     </state>

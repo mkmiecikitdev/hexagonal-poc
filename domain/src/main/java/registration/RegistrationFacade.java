@@ -21,14 +21,15 @@ public class RegistrationFacade {
         }
 
         final Registration saved = registrationRepository.save(new Registration(username, password));
-        return saved.toResult();
+        return RegistrationResult.of(saved.toSimpleData());
     }
 
     public RegistrationResult confirm(final String id, final String token) {
         return registrationRepository.findById(new AggregateId(id))
                 .map(it -> it.confirm(token))
                 .map(registrationRepository::save)
-                .map(Registration::toResult)
+                .map(Registration::toSimpleData)
+                .map(RegistrationResult::of)
                 .getOrElseThrow(RegistrationNotExist::new);
     }
 
@@ -36,7 +37,7 @@ public class RegistrationFacade {
         return registrationRepository.findById(new AggregateId(id))
                 .map(Registration::resetToken)
                 .map(registrationRepository::save)
-                .map(it -> new ResetTokenResult(id, it.toResult().getToken()))
+                .map(it -> new ResetTokenResult(id, it.toSimpleData().getToken()))
                 .getOrElseThrow(RegistrationNotExist::new);
     }
 }
