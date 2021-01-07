@@ -1,6 +1,6 @@
 import presentation.ConsoleApp;
 import presentation.ConsoleAppModule;
-import registration.RegistrationModule;
+import jpa.registration.RegistrationModule;
 
 public class Main {
     public static void main(String[] args) {

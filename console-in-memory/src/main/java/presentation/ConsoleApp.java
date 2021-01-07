@@ -1,8 +1,8 @@
 package presentation;
 
 import lombok.RequiredArgsConstructor;
-import registration.RegistrationFacade;
-import registration.api.RegistrationResult;
+import jpa.registration.RegistrationFacade;
+import jpa.registration.api.RegistrationResult;
 
 @RequiredArgsConstructor
 public class ConsoleApp {

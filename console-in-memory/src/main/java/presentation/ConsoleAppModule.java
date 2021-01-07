@@ -1,6 +1,6 @@
 package presentation;
 
-import registration.RegistrationFacade;
+import jpa.registration.RegistrationFacade;
 
 public class ConsoleAppModule {
 

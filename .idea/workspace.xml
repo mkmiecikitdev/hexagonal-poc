@@ -1,54 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0d77e9b-ed1f-4474-a2bb-502b74db6445" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/registration/api/RegistrationSimpleData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in-memory-persistence/in-memory-persistence.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in-memory-persistence/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-persistence/jpa-persistence.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-persistence/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-persistence/src/main/java/JpaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-persistence/src/main/java/registration/JpaDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-persistence/src/main/java/registration/JpaRegistrationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-persistence/src/main/java/registration/RegistrationJpaEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rest/spring-rest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rest/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rest/src/main/java/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rest/src/main/java/registration/RegistrationRestController.java" afterDir="false" />
+    <list default="true" id="b0d77e9b-ed1f-4474-a2bb-502b74db6445" name="Default Changelist" comment="Add jpa and spring web">
+      <change afterPath="$PROJECT_DIR$/spring-rest/src/main/java/springrest/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console-in-memory/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-in-memory/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console-in-memory/src/main/java/presentation/ConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/src/main/java/presentation/ConsoleApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console-in-memory/src/main/java/registration/InMemoryRegistrationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/in-memory-persistence/src/main/java/registration/InMemoryRegistrationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-in-memory/src/main/java/presentation/ConsoleAppModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/src/main/java/presentation/ConsoleAppModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-in-memory/src/main/java/registration/RegistrationModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/src/main/java/jpa/registration/RegistrationModule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console-in-memory/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/target/classes/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console-in-memory/target/classes/presentation/ConsoleApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/target/classes/presentation/ConsoleApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console-in-memory/target/classes/presentation/ConsoleAppModule.class" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/target/classes/presentation/ConsoleAppModule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console-in-memory/target/classes/registration/InMemoryRegistrationRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-in-memory/target/classes/registration/RegistrationModule.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/console-in-memory/target/console-in-memory-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/target/console-in-memory-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console-in-memory/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console-in-memory/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console-in-memory/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/registration/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/registration/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/registration/RegistrationFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/registration/RegistrationFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/registration/api/RegistrationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/registration/api/RegistrationResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/common/AggregateId.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/common/AggregateId.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/common/DomainError.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/common/DomainError.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/common/Username.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/common/Username.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/Password.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/registration/Password.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/registration/Registration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/RegistrationFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/registration/RegistrationFacade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/RegistrationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/registration/RegistrationRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/registration/Token.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/api/RegistrationResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/registration/api/RegistrationResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/api/ResetTokenResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/registration/api/ResetTokenResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/registration/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/Password.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/registration/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/registration/RegistrationFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/RegistrationFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/registration/RegistrationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/RegistrationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/registration/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/registration/api/RegistrationNotExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/api/RegistrationNotExist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/registration/api/RegistrationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/api/RegistrationResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/registration/api/RegistrationSimpleData.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/api/RegistrationSimpleData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/registration/api/ResetTokenResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/api/ResetTokenResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/registration/api/UsernameExistException.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/api/UsernameExistException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/Password.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/Registration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/RegistrationFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/RegistrationRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/Token.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/api/RegistrationNotExist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/api/RegistrationResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/api/ResetTokenResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/registration/api/UsernameExistException.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/target/domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/domain-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in-memory-persistence/src/main/java/registration/InMemoryRegistrationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/in-memory-persistence/src/main/java/jpa/registration/InMemoryRegistrationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-persistence/src/main/java/JpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-persistence/src/main/java/jpa/JpaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-persistence/src/main/java/registration/JpaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-persistence/src/main/java/jpa/registration/JpaDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-persistence/src/main/java/registration/JpaRegistrationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-persistence/src/main/java/jpa/registration/JpaRegistrationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-persistence/src/main/java/registration/RegistrationJpaEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-persistence/src/main/java/jpa/registration/RegistrationJpaEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rest/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rest/src/main/java/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rest/src/main/java/springrest/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rest/src/main/java/registration/RegistrationRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rest/src/main/java/springrest/registration/RegistrationRestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +72,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Pobrane/demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.11820328" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -97,7 +94,7 @@
     <configuration name="Spring Rest" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="App" />
+      <option name="MAIN_CLASS_NAME" value="springrest.Main" />
       <module name="spring-rest" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,7 +133,19 @@
       <option name="presentableId" value="Default" />
       <updated>1609973122253</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add jpa and spring web">
+      <created>1610026198293</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610026198293</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add jpa and spring web" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add jpa and spring web" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2475" y="260" width="847" height="677" key="#Project_Structure" timestamp="1610024439075">
@@ -159,6 +168,10 @@
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state x="2612" y="385" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610024715395" />
+    <state x="2380" y="526" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1610054693116">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2380" y="526" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610054693116" />
     <state x="2592" y="459" width="575" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610026034946">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
@@ -171,6 +184,10 @@
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state x="2613" y="348" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610023567140" />
+    <state x="2251" y="195" width="1248" height="807" key="CommitChangelistDialog2" timestamp="1610026210584">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2251" y="195" width="1248" height="807" key="CommitChangelistDialog2/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610026210584" />
     <state x="2020" y="98" width="1720" height="1002" key="DiffContextDialog" timestamp="1610022410697">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
@@ -179,42 +196,46 @@
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state x="2663" y="357" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610024819138" />
-    <state width="1874" height="305" key="GridCell.Tab.0.bottom" timestamp="1610026160138">
+    <state width="1874" height="323" key="GridCell.Tab.0.bottom" timestamp="1610055787406">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1874" height="305" key="GridCell.Tab.0.bottom/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610026160138" />
-    <state width="1874" height="305" key="GridCell.Tab.0.center" timestamp="1610026160138">
+    <state width="1874" height="323" key="GridCell.Tab.0.bottom/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610055787406" />
+    <state width="1874" height="323" key="GridCell.Tab.0.center" timestamp="1610055787406">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1874" height="305" key="GridCell.Tab.0.center/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610026160138" />
-    <state width="1874" height="305" key="GridCell.Tab.0.left" timestamp="1610026160138">
+    <state width="1874" height="323" key="GridCell.Tab.0.center/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610055787406" />
+    <state width="1874" height="323" key="GridCell.Tab.0.left" timestamp="1610055787406">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1874" height="305" key="GridCell.Tab.0.left/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610026160138" />
-    <state width="1874" height="305" key="GridCell.Tab.0.right" timestamp="1610026160138">
+    <state width="1874" height="323" key="GridCell.Tab.0.left/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610055787406" />
+    <state width="1874" height="323" key="GridCell.Tab.0.right" timestamp="1610055787406">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1874" height="305" key="GridCell.Tab.0.right/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610026160138" />
-    <state width="1874" height="131" key="GridCell.Tab.1.bottom" timestamp="1610022392001">
+    <state width="1874" height="323" key="GridCell.Tab.0.right/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610055787406" />
+    <state width="1874" height="131" key="GridCell.Tab.1.bottom" timestamp="1610026211455">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1874" height="131" key="GridCell.Tab.1.bottom/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610022392001" />
-    <state width="1874" height="131" key="GridCell.Tab.1.center" timestamp="1610022392001">
+    <state width="1874" height="131" key="GridCell.Tab.1.bottom/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610026211455" />
+    <state width="1874" height="131" key="GridCell.Tab.1.center" timestamp="1610026211455">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1874" height="131" key="GridCell.Tab.1.center/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610022392001" />
-    <state width="1874" height="131" key="GridCell.Tab.1.left" timestamp="1610022392001">
+    <state width="1874" height="131" key="GridCell.Tab.1.center/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610026211455" />
+    <state width="1874" height="131" key="GridCell.Tab.1.left" timestamp="1610026211455">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1874" height="131" key="GridCell.Tab.1.left/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610022392001" />
-    <state width="1874" height="131" key="GridCell.Tab.1.right" timestamp="1610022392001">
+    <state width="1874" height="131" key="GridCell.Tab.1.left/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610026211455" />
+    <state width="1874" height="131" key="GridCell.Tab.1.right" timestamp="1610026211455">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
-    <state width="1874" height="131" key="GridCell.Tab.1.right/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610022392001" />
+    <state width="1874" height="131" key="GridCell.Tab.1.right/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610026211455" />
     <state x="2369" y="234" width="1024" height="845" key="SettingsEditor" timestamp="1609980668289">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state x="2369" y="234" width="1024" height="845" key="SettingsEditor/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1609980668289" />
+    <state x="2475" y="335" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1610026199151">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2475" y="335" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1173/3840.0.1920.1080/1920.0.1920.1200@1920.0.1920.1200" timestamp="1610026199151" />
     <state x="4456" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1610007129156">
       <screen x="3840" y="0" width="1920" height="1080" />
     </state>
