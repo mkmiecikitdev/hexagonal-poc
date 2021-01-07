@@ -1,0 +1,12 @@
+registration/RegistrationFacade.class
+registration/Password.class
+registration/Token.class
+registration/Registration.class
+common/DomainError.class
+common/AggregateId.class
+registration/api/ResetTokenResult.class
+common/Username.class
+registration/api/UsernameExistException.class
+registration/RegistrationRepository.class
+registration/api/RegistrationNotExist.class
+registration/api/RegistrationResult.class

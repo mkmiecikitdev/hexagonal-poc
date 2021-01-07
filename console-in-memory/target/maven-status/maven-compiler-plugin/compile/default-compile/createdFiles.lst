@@ -1,0 +1,5 @@
+Main.class
+presentation/ConsoleApp.class
+presentation/ConsoleAppModule.class
+registration/InMemoryRegistrationRepository.class
+registration/RegistrationModule.class

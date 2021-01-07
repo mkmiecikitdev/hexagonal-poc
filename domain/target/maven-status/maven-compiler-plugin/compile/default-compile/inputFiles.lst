@@ -1,0 +1,12 @@
+/home/bambz/Dokumenty/programowanie/hexagonal/domain/src/main/java/common/AggregateId.java
+/home/bambz/Dokumenty/programowanie/hexagonal/domain/src/main/java/registration/api/ResetTokenResult.java
+/home/bambz/Dokumenty/programowanie/hexagonal/domain/src/main/java/registration/Token.java
+/home/bambz/Dokumenty/programowanie/hexagonal/domain/src/main/java/common/DomainError.java
+/home/bambz/Dokumenty/programowanie/hexagonal/domain/src/main/java/registration/RegistrationFacade.java
+/home/bambz/Dokumenty/programowanie/hexagonal/domain/src/main/java/registration/api/RegistrationNotExist.java
+/home/bambz/Dokumenty/programowanie/hexagonal/domain/src/main/java/registration/api/UsernameExistException.java
+/home/bambz/Dokumenty/programowanie/hexagonal/domain/src/main/java/registration/Registration.java
+/home/bambz/Dokumenty/programowanie/hexagonal/domain/src/main/java/registration/RegistrationRepository.java
+/home/bambz/Dokumenty/programowanie/hexagonal/domain/src/main/java/registration/Password.java
+/home/bambz/Dokumenty/programowanie/hexagonal/domain/src/main/java/registration/api/RegistrationResult.java
+/home/bambz/Dokumenty/programowanie/hexagonal/domain/src/main/java/common/Username.java
