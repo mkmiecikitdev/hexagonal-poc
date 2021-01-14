@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-rest" />
-        <module name="console-in-memory" />
-        <module name="jpa-persistence" />
         <module name="in-memory-persistence" />
         <module name="domain" />
+        <module name="spring-rest-api" />
+        <module name="jpa-persistence" />
+        <module name="spring-rest-client" />
+        <module name="console-in-memory" />
       </profile>
     </annotationProcessing>
   </component>
@@ -21,6 +23,8 @@
       <module name="in-memory-persistence" options="-parameters" />
       <module name="jpa-persistence" options="-parameters" />
       <module name="spring-rest" options="-parameters" />
+      <module name="spring-rest-api" options="-parameters" />
+      <module name="spring-rest-client" options="-parameters" />
     </option>
   </component>
 </project>
