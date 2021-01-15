@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0d77e9b-ed1f-4474-a2bb-502b74db6445" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console-in-memory/src/main/java/consoleinmemory/ConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/src/main/java/consoleinmemory/presentation/ConsoleApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console-in-memory/src/main/java/consoleinmemory/ConsoleAppModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/src/main/java/consoleinmemory/config/ConsoleAppModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console-in-memory/src/main/java/consoleinmemory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/src/main/java/consoleinmemory/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console-in-memory/src/main/java/consoleinmemory/RegistrationModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/src/main/java/consoleinmemory/config/RegistrationModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/domain/registration/api/RegistrationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/registration/api/RegistrationResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rest/src/main/java/springrest/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rest/src/main/java/springrest/config/RestServerConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +51,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Console Main">
+  <component name="RunManager" selected="JUnit.RegistrationControllerTest">
     <configuration name="Console Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="consoleinmemory.Main" />
       <module name="console-in-memory" />
@@ -112,8 +107,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Console Main" />
         <item itemvalue="JUnit.RegistrationControllerTest" />
+        <item itemvalue="Application.Console Main" />
         <item itemvalue="JUnit.RegistrationControllerTest.should" />
       </list>
     </recent_temporary>
@@ -184,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610738993260</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="consoleinmemory refactored">
+      <created>1610739934860</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610739934860</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -194,6 +196,7 @@
     <MESSAGE value="EVERYTHING WORKS!!!" />
     <MESSAGE value="Fixed tests" />
     <MESSAGE value="Hide http registration test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hide http registration test" />
+    <MESSAGE value="consoleinmemory refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="consoleinmemory refactored" />
   </component>
 </project>
