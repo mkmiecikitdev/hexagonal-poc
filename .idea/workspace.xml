@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0d77e9b-ed1f-4474-a2bb-502b74db6445" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-rest-client/src/main/java/springrestclient/registration/HttpRegistrationClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest-client/src/main/java/springrestclient/registration/RegistrationClientFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rest-client/src/main/java/springrestclient/registration/RegistrationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rest-client/src/main/java/springrestclient/registration/RegistrationClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-rest/src/test/java/springrest/registration/RegistrationControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rest/src/test/java/springrest/registration/RegistrationControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +25,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1miOosqXUjb2qFUGxCZhy93cGvF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -158,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610738648682</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixed tests">
+      <created>1610738721735</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610738721735</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -166,6 +184,7 @@
     <MESSAGE value="Work connected JPA as seperated module!" />
     <MESSAGE value="package java 11 fixes" />
     <MESSAGE value="EVERYTHING WORKS!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="EVERYTHING WORKS!!!" />
+    <MESSAGE value="Fixed tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed tests" />
   </component>
 </project>

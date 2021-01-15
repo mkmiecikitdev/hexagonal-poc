@@ -7,6 +7,7 @@ import org.springframework.boot.web.server.LocalServerPort;
 import springrest.Main;
 import springrestapi.registration.RegistrationResultRestDto;
 import springrestclient.registration.RegistrationClient;
+import springrestclient.registration.RegistrationClientFactory;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT, classes = Main.class)
 public class RegistrationControllerTest {
@@ -16,7 +17,7 @@ public class RegistrationControllerTest {
 
     @Test
     public void shouldReturnNotNull() {
-        final RegistrationClient client = new RegistrationClient("localhost", port);
+        final RegistrationClient client = RegistrationClientFactory.create("localhost", port);
 
         final RegistrationResultRestDto register = client.register();
 
