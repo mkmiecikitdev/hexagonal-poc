@@ -1,5 +1,6 @@
 package springrest.registration;
 
+import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.web.server.LocalServerPort;
@@ -14,12 +15,11 @@ public class RegistrationControllerTest {
     private int port;
 
     @Test
-    public void should() {
+    public void shouldReturnNotNull() {
         final RegistrationClient client = new RegistrationClient("localhost", port);
 
         final RegistrationResultRestDto register = client.register();
 
-        System.out.printf("dupa");
+        Assertions.assertThat(register).isNotNull();
     }
-
 }
