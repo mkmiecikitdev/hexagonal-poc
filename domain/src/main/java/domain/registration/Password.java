@@ -1,14 +1,20 @@
 package domain.registration;
 
-import java.util.Objects;
+import domain.errorapi.DomainError;
+import io.vavr.control.Either;
+import io.vavr.control.Option;
+import lombok.AccessLevel;
+import lombok.RequiredArgsConstructor;
 
+@RequiredArgsConstructor(access = AccessLevel.PRIVATE)
 public class Password {
 
     private final String password;
 
-    public Password(final String password) {
-        Objects.requireNonNull(password, "Password cannot be null");
-        this.password = password;
+    public static Either<DomainError, Password> of(final String password) {
+        return Option.of(password)
+                .toEither(DomainError.PASSWORD_NULL)
+                .map(Password::new);
     }
 
     public String getPassword() {

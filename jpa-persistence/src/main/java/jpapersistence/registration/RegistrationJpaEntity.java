@@ -5,8 +5,9 @@ import domain.common.Username;
 import domain.registration.Password;
 import domain.registration.Registration;
 import domain.registration.Token;
-import lombok.*;
 import domain.registration.api.RegistrationSimpleData;
+import jpapersistence.exceptions.CannotLoadFieldException;
+import lombok.*;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -39,9 +40,9 @@ public class RegistrationJpaEntity {
         return Registration.builder()
                 .id(new AggregateId(id))
                 .confirmed(this.confirmed)
-                .username(new Username(username))
-                .password(new Password(password))
-                .token(new Token(token))
+                .username(Username.of(username).getOrElseThrow(() -> new CannotLoadFieldException("username")))
+                .password(Password.of(password).getOrElseThrow(() -> new CannotLoadFieldException("password")))
+                .token(Token.of(token).getOrElseThrow(() -> new CannotLoadFieldException("token")))
                 .build();
     }
 }

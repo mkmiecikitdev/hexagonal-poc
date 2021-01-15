@@ -1,10 +1,12 @@
 package springrest.registration;
 
+import io.vavr.control.Either;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.web.server.LocalServerPort;
 import springrest.Main;
+import springrestapi.error.RestErrorResponse;
 import springrestapi.registration.RegistrationResultRestDto;
 import springrestclient.registration.RegistrationClient;
 import springrestclient.registration.RegistrationClientFactory;
@@ -19,8 +21,8 @@ public class RegistrationControllerTest {
     public void shouldReturnNotNull() {
         final RegistrationClient client = RegistrationClientFactory.create("localhost", port);
 
-        final RegistrationResultRestDto register = client.register();
+        final Either<RestErrorResponse, RegistrationResultRestDto> result = client.register();
 
-        Assertions.assertThat(register).isNotNull();
+        Assertions.assertThat(result).isNotNull();
     }
 }

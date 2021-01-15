@@ -1,11 +1,12 @@
 package springrestclient.registration;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.vavr.control.Either;
+import io.vavr.control.Try;
 import lombok.RequiredArgsConstructor;
+import springrestapi.error.RestErrorResponse;
 import springrestapi.registration.RegistrationResultRestDto;
-import springrestclient.common.RestClientException;
 
-import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
@@ -23,16 +24,29 @@ class HttpRegistrationClient implements RegistrationClient {
     }
 
     @Override
-    public RegistrationResultRestDto register() {
-        HttpRequest request = HttpRequest.newBuilder()
-                .GET()
-                .uri(URI.create(baseUrl + "/add"))
-                .build();
-        try {
-            final HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-            return objectMapper.readValue(response.body(), RegistrationResultRestDto.class);
-        } catch (IOException | InterruptedException e) {
-            throw new RestClientException();
+    public Either<RestErrorResponse, RegistrationResultRestDto> register() {
+        return Try.of(() -> {
+            final HttpRequest request = HttpRequest.newBuilder()
+                    .GET()
+                    .uri(URI.create(baseUrl + "/add"))
+                    .build();
+
+            return client.send(request, HttpResponse.BodyHandlers.ofString());
+        })
+                .toEither(new RestErrorResponse("UNKNOWN_REST_ERROR"))
+                .flatMap(this::tryParseResponse);
+    }
+
+    private Either<RestErrorResponse, RegistrationResultRestDto> tryParseResponse(final HttpResponse<String> response) {
+        if (response.statusCode() == 200 || response.statusCode() == 201) {
+            return Try.of(() -> objectMapper.readValue(response.body(), RegistrationResultRestDto.class))
+                    .toEither(new RestErrorResponse("CANNOT_PARSE_SUCCESS_RESPONSE"));
         }
+
+        return Try.of(() -> objectMapper.readValue(response.body(), RestErrorResponse.class))
+                .fold(
+                        error -> Either.left(new RestErrorResponse("CANNOT_PARSE_ERROR_RESPONSE")),
+                        Either::left
+                );
     }
 }

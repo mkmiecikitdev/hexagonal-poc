@@ -1,9 +1,8 @@
 package consoleinmemory.presentation;
 
 import consoleinmemory.config.ConsoleAppModule;
-import lombok.RequiredArgsConstructor;
 import domain.registration.RegistrationFacade;
-import domain.registration.api.RegistrationResult;
+import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
 public class ConsoleApp {
@@ -15,11 +14,18 @@ public class ConsoleApp {
     }
 
     public void start() {
-        final RegistrationResult result = registrationFacade.register("USERNAME", "PAZZ");
-        final String myId = result.getId();
-        final String myToken = result.getToken();
+        registrationFacade.register("USERNAME", "PAZZ")
+                .map(result -> {
+                    final String myId = result.getId();
+                    final String myToken = result.getToken();
 
-        final RegistrationResult confirmResult = registrationFacade.confirm(myId, myToken);
-        System.out.println(confirmResult);
+                    registrationFacade.confirm(myId, myToken)
+                            .map(it -> {
+                                System.out.println(it);
+                                return 1;
+                            });
+
+                    return 0;
+                });
     }
 }

@@ -1,19 +1,26 @@
 package domain.registration;
 
+import domain.errorapi.DomainError;
+import io.vavr.control.Either;
+import io.vavr.control.Option;
+import lombok.AccessLevel;
+import lombok.RequiredArgsConstructor;
+
 import java.util.UUID;
 
-import static java.util.Objects.requireNonNull;
-
+@RequiredArgsConstructor(access = AccessLevel.PRIVATE)
 public class Token {
 
     private final String token;
 
-    public Token() {
-        this.token = UUID.randomUUID().toString();
+    public static Token random() {
+        return new Token(UUID.randomUUID().toString());
     }
 
-    public Token(String token) {
-        this.token = requireNonNull(token, "Token cannot be null");
+    public static Either<DomainError, Token> of(final String token) {
+        return Option.of(token)
+                .toEither(DomainError.TOKEN_NULL)
+                .map(Token::new);
     }
 
     public String getToken() {

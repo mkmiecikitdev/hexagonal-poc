@@ -1,2 +1,3 @@
 springrestapi/registration/RegistrationResultRestDto$RegistrationResultRestDtoBuilder.class
+springrestapi/error/RestErrorResponse.class
 springrestapi/registration/RegistrationResultRestDto.class
