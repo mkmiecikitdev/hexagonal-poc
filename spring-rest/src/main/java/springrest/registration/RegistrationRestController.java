@@ -1,7 +1,7 @@
 package springrest.registration;
 
-import jpa.registration.RegistrationFacade;
-import jpa.registration.api.RegistrationResult;
+import domain.registration.RegistrationFacade;
+import domain.registration.api.RegistrationResult;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

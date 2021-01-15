@@ -4,38 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0d77e9b-ed1f-4474-a2bb-502b74db6445" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/hexagonal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rest-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rest-api/src/main/java/springrestapi/registration/RegistrationResultRestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rest-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rest-client/src/main/java/springrestclient/common/RestClientException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rest-client/src/main/java/springrestclient/registration/RegistrationClient.java" afterDir="false" />
+    <list default="true" id="b0d77e9b-ed1f-4474-a2bb-502b74db6445" name="Default Changelist" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console-in-memory/console-in-memory.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rest-api/spring-rest-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console-in-memory/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/console-in-memory/target/classes/presentation/ConsoleApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/console-in-memory/target/classes/presentation/ConsoleAppModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/console-in-memory/target/console-in-memory-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/console-in-memory/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/console-in-memory/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/console-in-memory/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/console-in-memory/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rest-client/spring-rest-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/domain-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/in-memory-persistence/in-memory-persistence.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-persistence/jpa-persistence.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-in-memory/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/src/main/java/consoleinmemory/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-in-memory/src/main/java/jpa/registration/RegistrationModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/src/main/java/consoleinmemory/RegistrationModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-in-memory/src/main/java/presentation/ConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/src/main/java/consoleinmemory/ConsoleApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-in-memory/src/main/java/presentation/ConsoleAppModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/src/main/java/consoleinmemory/ConsoleAppModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/common/AggregateId.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/common/AggregateId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/common/DomainError.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/common/DomainError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/common/Username.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/common/Username.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/registration/Password.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/registration/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/RegistrationFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/registration/RegistrationFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/RegistrationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/registration/RegistrationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/registration/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/api/RegistrationNotExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/registration/api/RegistrationNotExist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/api/RegistrationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/registration/api/RegistrationResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/api/RegistrationSimpleData.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/registration/api/RegistrationSimpleData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/api/ResetTokenResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/registration/api/ResetTokenResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/api/UsernameExistException.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/registration/api/UsernameExistException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in-memory-persistence/src/main/java/jpa/registration/InMemoryRegistrationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/in-memory-persistence/src/main/java/inmemorypersistence/InMemoryRegistrationRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jpa-persistence/src/main/java/jpa/JpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-persistence/src/main/java/jpa/JpaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-persistence/src/main/java/jpa/registration/JpaRegistrationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-persistence/src/main/java/jpa/registration/JpaRegistrationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-persistence/src/main/java/jpa/registration/RegistrationJpaEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-persistence/src/main/java/jpa/registration/RegistrationJpaEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rest/spring-rest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rest/src/main/java/springrest/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rest/src/main/java/springrest/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rest/src/main/java/springrest/registration/RegistrationRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rest/src/main/java/springrest/registration/RegistrationRestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +69,7 @@
   </component>
   <component name="RunManager" selected="Application.Spring Rest">
     <configuration name="Console Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="consoleinmemory.Main" />
       <module name="console-in-memory" />
       <method v="2">
         <option name="Make" enabled="true" />
