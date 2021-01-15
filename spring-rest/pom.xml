@@ -17,12 +17,24 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+        <dependency>
             <groupId>eu.bambz.hexagonal</groupId>
             <artifactId>domain</artifactId>
         </dependency>
         <dependency>
             <groupId>eu.bambz.hexagonal</groupId>
             <artifactId>jpa-persistence</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>eu.bambz.hexagonal</groupId>
+            <artifactId>spring-rest-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>eu.bambz.hexagonal</groupId>
+            <artifactId>spring-rest-api</artifactId>
         </dependency>
     </dependencies>
 

@@ -4,33 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0d77e9b-ed1f-4474-a2bb-502b74db6445" name="Default Changelist" comment="fix">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="b0d77e9b-ed1f-4474-a2bb-502b74db6445" name="Default Changelist" comment="package java 11 fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console-in-memory/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/src/main/java/consoleinmemory/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console-in-memory/src/main/java/jpa/registration/RegistrationModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/src/main/java/consoleinmemory/RegistrationModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console-in-memory/src/main/java/presentation/ConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/src/main/java/consoleinmemory/ConsoleApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console-in-memory/src/main/java/presentation/ConsoleAppModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/console-in-memory/src/main/java/consoleinmemory/ConsoleAppModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/common/AggregateId.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/common/AggregateId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/common/DomainError.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/common/DomainError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/common/Username.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/common/Username.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/registration/Password.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/registration/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/RegistrationFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/registration/RegistrationFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/RegistrationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/registration/RegistrationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/registration/Token.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/api/RegistrationNotExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/registration/api/RegistrationNotExist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/api/RegistrationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/registration/api/RegistrationResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/api/RegistrationSimpleData.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/registration/api/RegistrationSimpleData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/api/ResetTokenResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/registration/api/ResetTokenResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/jpa/registration/api/UsernameExistException.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/domain/registration/api/UsernameExistException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/in-memory-persistence/src/main/java/jpa/registration/InMemoryRegistrationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/in-memory-persistence/src/main/java/inmemorypersistence/InMemoryRegistrationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-persistence/src/main/java/jpa/JpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-persistence/src/main/java/jpa/JpaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-persistence/src/main/java/jpa/registration/JpaRegistrationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-persistence/src/main/java/jpa/registration/JpaRegistrationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-persistence/src/main/java/jpa/registration/RegistrationJpaEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-persistence/src/main/java/jpa/registration/RegistrationJpaEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/common/AggregateId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/common/DomainError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/common/Username.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/jpa/registration/Password.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/jpa/registration/Registration$RegistrationBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/jpa/registration/Registration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/jpa/registration/RegistrationFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/jpa/registration/RegistrationRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/jpa/registration/Token.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/jpa/registration/api/RegistrationNotExist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/jpa/registration/api/RegistrationResult$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/jpa/registration/api/RegistrationResult$RegistrationResultBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/jpa/registration/api/RegistrationResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/jpa/registration/api/RegistrationSimpleData$RegistrationSimpleDataBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/jpa/registration/api/RegistrationSimpleData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/jpa/registration/api/ResetTokenResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/jpa/registration/api/UsernameExistException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-persistence/target/classes/jpa/JpaConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-persistence/target/classes/jpa/registration/JpaDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-persistence/target/classes/jpa/registration/JpaRegistrationRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-persistence/target/classes/jpa/registration/RegistrationJpaEntity$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-persistence/target/classes/jpa/registration/RegistrationJpaEntity$RegistrationJpaEntityBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-persistence/target/classes/jpa/registration/RegistrationJpaEntity.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rest/src/main/java/springrest/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rest/src/main/java/springrest/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rest/src/main/java/springrest/registration/RegistrationRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rest/src/main/java/springrest/registration/RegistrationRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rest-api/src/main/java/springrestapi/registration/RegistrationResultRestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rest-api/src/main/java/springrestapi/registration/RegistrationResultRestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rest-client/src/main/java/springrestclient/registration/RegistrationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rest-client/src/main/java/springrestclient/registration/RegistrationClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rest/target/classes/springrest/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rest/target/classes/springrest/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rest/target/classes/springrest/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-rest/target/classes/springrest/registration/RegistrationRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rest/target/classes/springrest/registration/RegistrationRestController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +69,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="jpapersistence" />
       <recent name="" />
     </key>
   </component>
@@ -76,7 +82,7 @@
       </method>
     </configuration>
     <configuration name="Spring Rest" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="springrest.Main" />
       <module name="spring-rest" />
@@ -84,12 +90,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegistrationControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springrest.registration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="springrest.registration" />
+      <option name="MAIN_CLASS_NAME" value="springrest.registration.RegistrationControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationControllerTest.should" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springrest.registration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="springrest.registration" />
+      <option name="MAIN_CLASS_NAME" value="springrest.registration.RegistrationControllerTest" />
+      <option name="METHOD_NAME" value="should" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Spring Rest" />
       <item itemvalue="Application.Console Main" />
+      <item itemvalue="JUnit.RegistrationControllerTest" />
+      <item itemvalue="JUnit.RegistrationControllerTest.should" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegistrationControllerTest.should" />
+        <item itemvalue="JUnit.RegistrationControllerTest" />
         <item itemvalue="Application.Console Main" />
       </list>
     </recent_temporary>
@@ -132,12 +173,31 @@
       <option name="project" value="LOCAL" />
       <updated>1610055946177</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="package java 11 fixes">
+      <created>1610737764084</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610737764084</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add jpa and spring web" />
     <MESSAGE value="Work connected JPA as seperated module!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Work connected JPA as seperated module!" />
+    <MESSAGE value="package java 11 fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="package java 11 fixes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-rest-client/src/main/java/springrestclient/registration/RegistrationClient.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

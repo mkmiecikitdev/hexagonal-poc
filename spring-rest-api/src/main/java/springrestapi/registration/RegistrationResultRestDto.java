@@ -1,13 +1,17 @@
 package springrestapi.registration;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
+@NoArgsConstructor
+@AllArgsConstructor
 @Builder
 @Getter
 public class RegistrationResultRestDto {
-    private final String id;
-    private final String username;
-    private final String token;
-    private final boolean confirmed;
+    private String id;
+    private String username;
+    private String token;
+    private boolean confirmed;
 }

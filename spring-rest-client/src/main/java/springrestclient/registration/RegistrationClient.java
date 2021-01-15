@@ -2,7 +2,6 @@ package springrestclient.registration;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import springrestapi.registration.RegistrationResultRestDto;
 import springrestclient.common.RestClientException;
 
@@ -12,7 +11,6 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-@Slf4j
 @RequiredArgsConstructor
 public class RegistrationClient {
 
@@ -31,7 +29,7 @@ public class RegistrationClient {
                 .build();
         try {
             final HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-            return objectMapper.convertValue(response.body(), RegistrationResultRestDto.class);
+            return objectMapper.readValue(response.body(), RegistrationResultRestDto.class);
         } catch (IOException | InterruptedException e) {
             throw new RestClientException();
         }
