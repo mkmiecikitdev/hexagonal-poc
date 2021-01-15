@@ -1,4 +1,4 @@
-package consoleinmemory;
+package consoleinmemory.config;
 
 import inmemorypersistence.InMemoryRegistrationRepository;
 import domain.registration.RegistrationFacade;

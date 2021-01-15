@@ -1,5 +1,6 @@
-package consoleinmemory;
+package consoleinmemory.presentation;
 
+import consoleinmemory.config.ConsoleAppModule;
 import lombok.RequiredArgsConstructor;
 import domain.registration.RegistrationFacade;
 import domain.registration.api.RegistrationResult;
@@ -19,5 +20,6 @@ public class ConsoleApp {
         final String myToken = result.getToken();
 
         final RegistrationResult confirmResult = registrationFacade.confirm(myId, myToken);
+        System.out.println(confirmResult);
     }
 }

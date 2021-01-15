@@ -1,10 +1,8 @@
 package domain.registration.api;
 
-import lombok.AccessLevel;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 
+@ToString
 @RequiredArgsConstructor(access = AccessLevel.PRIVATE)
 @Builder
 @Getter
